@@ -120,11 +120,11 @@ hr{
 
 /* Microbe list */
 
-ul.microbe-list{
+ul.spoke-list{
 	padding-left: 0;
 }
 
-ul.microbe-list li{
+ul.spoke-list li{
 	list-style-type: none;
 	color: #666;
 	position: relative;

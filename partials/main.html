@@ -14,14 +14,14 @@
 	</div>
 	<div class="col-sm-4">
 	
-		<ul class="microbe-list">
-			<li ng-repeat="microbe in microbes" ng-class="highlight(microbe)" ng-click="buyMicrobe(microbe)">	
-				<img src="img/{{getIcon(microbe)}}-icon.png" class="icon">
+		<ul class="spoke-list">
+			<li ng-repeat="spoke in spokes" ng-class="highlight(spoke)" ng-click="buySpoke(spoke)">	
+				<img src="img/{{getIcon(spoke)}}-icon.png" class="icon">
 				<div class="name">
-					{{getName(microbe)}}
+					{{getName(spoke)}}
 				</div>
-				<div class="count">{{microbe.count}}</div>
-				<div class="cost">{{microbe.cost}}</div>
+				<div class="count">{{spoke.count}}</div>
+				<div class="cost">{{spoke.cost}}</div>
 				
 			</li>
 		</ul>
