@@ -1,6 +1,6 @@
 app.controller('MainController', function($scope, $http){
 
-	$scope.game = { score: 0, growth: 0.2 }
+	$scope.game = { score: 0, growth: 0.2 };
 
 	$scope.microbes = [
 		{"name": "Extra Spoke", 		"cost": 10, "count":0, "growth": 0.2, 	"spoke": 'spoke1', "req": 0},

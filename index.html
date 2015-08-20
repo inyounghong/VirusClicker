@@ -2,7 +2,7 @@
 <html lang="en" ng-app="myApp" ng-controller="MainController">
 	<head>
 		<meta charset="utf-8">
-		<title>{{game.score | floor}} infected | VirusClicker</title>
+		<title ng-bind="(game.score | floor) + ' infected | Virus Clicker'">VirusClicker</title>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js"></script>
     	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular-route.min.js"></script>
