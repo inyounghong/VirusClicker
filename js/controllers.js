@@ -9,11 +9,10 @@ app.controller('MainController', function($scope, $http){
 		{"name": "Super Spoke", 		"cost": 500, 	"count":0, "growth": 8, 	"spoke": 'spoke4', "req": 8},
 		{"name": "Super Ultra Spoke", 	"cost": 2000, 	"count":0, "growth": 14, 	"spoke": 'spoke5', "req": 24},
 		{"name": "Ultra Mega Spoke", 	"cost": 10000, 	"count":0, "growth": 25, 	"spoke": 'spoke6', "req": 55},
-	]
+
 
 	function addScore(amount){
 		$scope.game.score += amount;
-
 	}
 
 	function subtractScore(amount){
@@ -72,7 +71,6 @@ app.controller('MainController', function($scope, $http){
 				str += "highlight ";
 			}
 		}
-		
 		return str;
 	}
 
