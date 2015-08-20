@@ -13,6 +13,7 @@ app.controller('MainController', function($scope, $http){
 
 	function addScore(amount){
 		$scope.game.score += amount;
+
 	}
 
 	function subtractScore(amount){
@@ -34,7 +35,6 @@ app.controller('MainController', function($scope, $http){
 		console.log(spoke);
 		$('#virus-box').append(spoke);
 	}
-
 
 	$scope.clickVirus = function(){
 		addScore(1);
