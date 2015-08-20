@@ -99,13 +99,18 @@ hr{
 	-o-animation: rotate 100s linear infinite 0s;
 	-ms-animation: rotate 100s linear infinite 0s;
 	animation: rotate 100s linear infinite 0s;
-	
 }
 
 #virus-img{
 	width: 400px;
 	position: relative;
 	z-index: 99;
+}
+
+.click-me{
+	position: absolute;
+    top: 48px;
+    right: 120px;
 }
 
 .spoke{
