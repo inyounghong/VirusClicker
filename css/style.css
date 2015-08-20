@@ -3,13 +3,18 @@
 .body{
 	background: #333;
 	color: #fff;
-	font-size: 14px;
+	font-size: 16px;
 	font-family: 'Open Sans';
+}
+
+.body a{
+	color: #fff;
 }
 
 .container.main{
 	margin-top: 50px;
 }
+
 
 /* Navigation */
 
@@ -19,17 +24,47 @@
 	font-size: 16px;
 }
 
-#nav a{
-	color: #fff;
+#nav a, #nav a:hover, #nav a:focus{
+	text-decoration: none;
+	font-weight: 300;
 }
 
 #nav .title{
-	font-weight: 600;
+	font-weight: 600!important;
 	margin-right: 40px;
 }
 
-#nav a:hover, #nav a:focus{
+
+/* About */
+
+.narrow{
+	max-width: 700px;
+	font-weight: 300;
+}
+
+.narrow a{
+	font-weight: 600;
 	text-decoration: none;
+}
+
+.narrow li{
+	margin: 8px 0;
+}
+
+h2{
+	font-size: 24px;
+	margin-bottom: 20px;
+	font-weight: 400;
+}
+
+p{
+	margin: 10px 0;
+	line-height: 1.5em;
+}
+
+hr{
+	border-top: 1px solid #444;
+	margin: 30px 0;
 }
 
 /* Game */
@@ -44,6 +79,7 @@
 .growth{
 	text-align: center;
 	font-size: 14px;
+	font-weight: 300;
 }
 
 .virus{
@@ -77,13 +113,14 @@
     left: -21px;
 }
 
+
 /* Microbe list */
 
-ul{
+ul.microbe-list{
 	padding-left: 0;
 }
 
-ul li{
+ul.microbe-list li{
 	list-style-type: none;
 	color: #666;
 	position: relative;
@@ -95,7 +132,7 @@ ul li{
 
 .available{
 	background: #444;
-	color: #bbb;
+	color: #aaa!important;
 }
 
 .available img{
@@ -111,10 +148,14 @@ ul li{
 }
 
 li .name{
-	font-weight: 700;
+	font-weight: 300;
 	display: inline-block;
 	vertical-align: top;
 	text-transform: uppercase;
+}
+
+li .cost{
+	font-size: 14px;
 }
 
 li .count{
@@ -129,7 +170,7 @@ li .icon{
 	opacity: 0.2;
 }
 
-
+/* Animation */
 
 @-webkit-keyframes rotate {
  from {
